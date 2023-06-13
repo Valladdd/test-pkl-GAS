@@ -1,0 +1,40 @@
+body {
+    background-color:gold;
+}
+
+h1 {
+    color: white;
+}
+
+h2 {
+    color: black;
+}
+
+h5 {
+    color: white;
+}
+
+p {
+    color: black;
+}
+
+.form-signin .form-floating:focus-within {
+    z-index: 2;
+}
+
+.form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.form-registration input {
+    border-radius: 0;
+    margin-bottom: -1px;
+}

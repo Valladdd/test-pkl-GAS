@@ -1,0 +1,89 @@
+<p>
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur vero
+    beatae totam repellat ut fugit, hic, eligendi eius iste voluptatem, deserunt
+    minima quam labore praesentium alias blanditiis quibusdam! Culpa optio
+    dolore qui maxime! Impedit expedita natus quidem totam,
+</p>
+<p>
+    reprehenderit earum quia fugiat sed itaque repudiandae! Explicabo molestiae
+    recusandae necessitatibus, modi at quod. Quos dolorem iste expedita iure.
+    Eaque corporis itaque tempora dolor voluptate necessitatibus maiores
+    veritatis, adipisci earum nobis sequi cumque facere non totam architecto
+    porro repellat consectetur praesentium.
+</p>
+<p>
+    Nemo accusantium libero officiis perspiciatis voluptatibus dolores optio
+    dicta sint nulla veniam ullam tenetur animi adipisci rem sequi tempore,
+    aliquam ratione molestias quia sapiente eaque impedit pariatur nobis! Quia
+    vero consectetur, fugit enim omnis a sunt eaque recusandae ut, ipsam
+    reiciendis ad expedita, qui sit voluptatum ipsum harum obcaecati doloribus!
+    Laboriosam laudantium quisquam, voluptates dolores, maxime modi, corporis
+    veniam perferendis quo magni quasi labore quis. Minus perspiciatis dicta
+    aspernatur perferendis provident.
+</p>
+
+Post::create([ 'title' => 'Judul Ke Kedua', 'slug' => 'judul-kedua', 'excerpt'
+=> 'Lorem ipsum kedua', 'body' => '
+<p>
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur vero
+    beatae totam repellat ut fugit, hic, eligendi eius iste voluptatem, deserunt
+    minima quam labore praesentium alias blanditiis quibusdam! Culpa optio
+    dolore qui maxime! Impedit expedita natus quidem totam,
+</p>
+<p>
+    reprehenderit earum quia fugiat sed itaque repudiandae! Explicabo molestiae
+    recusandae necessitatibus, modi at quod. Quos dolorem iste expedita iure.
+    Eaque corporis itaque tempora dolor voluptate necessitatibus maiores
+    veritatis, adipisci earum nobis sequi cumque facere non totam architecto
+    porro repellat consectetur praesentium.
+</p>
+<p>
+    Nemo accusantium libero officiis perspiciatis voluptatibus dolores optio
+    dicta sint nulla veniam ullam tenetur animi adipisci rem sequi tempore,
+    aliquam ratione molestias quia sapiente eaque impedit pariatur nobis! Quia
+    vero consectetur, fugit enim omnis a sunt eaque recusandae ut, ipsam
+    reiciendis ad expedita, qui sit voluptatum ipsum harum obcaecati doloribus!
+    Laboriosam laudantium quisquam, voluptates dolores, maxime modi, corporis
+    veniam perferendis quo magni quasi labore quis. Minus perspiciatis dicta
+    aspernatur perferendis provident.
+</p>
+' ]) Post::create([ 'title' => 'Judul Ke Ketiga', 'slug' => 'judul-ketiga',
+'excerpt' => 'Lorem ipsum ketiga', 'body' => '
+<p>
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur vero
+    beatae totam repellat ut fugit, hic, eligendi eius iste voluptatem, deserunt
+    minima quam labore praesentium alias blanditiis quibusdam! Culpa optio
+    dolore qui maxime! Impedit expedita natus quidem totam,
+</p>
+<p>
+    reprehenderit earum quia fugiat sed itaque repudiandae! Explicabo molestiae
+    recusandae necessitatibus, modi at quod. Quos dolorem iste expedita iure.
+    Eaque corporis itaque tempora dolor voluptate necessitatibus maiores
+    veritatis, adipisci earum nobis sequi cumque facere non totam architecto
+    porro repellat consectetur praesentium.
+</p>
+<p>
+    Nemo accusantium libero officiis perspiciatis voluptatibus dolores optio
+    dicta sint nulla veniam ullam tenetur animi adipisci rem sequi tempore,
+    aliquam ratione molestias quia sapiente eaque impedit pariatur nobis! Quia
+    vero consectetur, fugit enim omnis a sunt eaque recusandae ut, ipsam
+    reiciendis ad expedita, qui sit voluptatum ipsum harum obcaecati doloribus!
+    Laboriosam laudantium quisquam, voluptates dolores, maxime modi, corporis
+    veniam perferendis quo magni quasi labore quis. Minus perspiciatis dicta
+    aspernatur perferendis provident.
+</p>
+' ])
+
+<!-- Post::create([
+    'title' => 'Judul Ke Keempat',
+    'slug' => 'judul-keempat',
+    'excerpt' => 'Lorem ipsum keempat',
+    'body' => '<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur vero beatae totam repellat ut fugit, hic, eligendi eius iste voluptatem, deserunt minima quam labore praesentium alias blanditiis quibusdam! Culpa optio dolore qui maxime! Impedit expedita natus quidem totam,</p><p>reprehenderit earum quia fugiat sed itaque repudiandae! Explicabo molestiae recusandae necessitatibus, modi at quod. Quos dolorem iste expedita iure. Eaque corporis itaque tempora dolor voluptate necessitatibus maiores veritatis, adipisci earum nobis sequi cumque facere non totam architecto porro repellat consectetur praesentium.</p> <p>Nemo accusantium libero officiis perspiciatis voluptatibus dolores optio dicta sint nulla veniam ullam tenetur animi adipisci rem sequi tempore, aliquam ratione molestias quia sapiente eaque impedit pariatur nobis! Quia vero consectetur, fugit enim omnis a sunt eaque recusandae ut, ipsam reiciendis ad expedita, qui sit voluptatum ipsum harum obcaecati doloribus! Laboriosam laudantium quisquam, voluptates dolores, maxime modi, corporis veniam perferendis quo magni quasi labore quis. Minus perspiciatis dicta aspernatur perferendis provident.</p> '
+])
+
+Post::create([
+    'title' => 'Judul Ke Kelima',
+    'slug' => 'judul-kelima',
+    'excerpt' => 'Lorem ipsum kelima',
+    'body' => '<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur vero beatae totam repellat ut fugit, hic, eligendi eius iste voluptatem, deserunt minima quam labore praesentium alias blanditiis quibusdam! Culpa optio dolore qui maxime! Impedit expedita natus quidem totam,</p><p>reprehenderit earum quia fugiat sed itaque repudiandae! Explicabo molestiae recusandae necessitatibus, modi at quod. Quos dolorem iste expedita iure. Eaque corporis itaque tempora dolor voluptate necessitatibus maiores veritatis, adipisci earum nobis sequi cumque facere non totam architecto porro repellat consectetur praesentium.</p> <p>Nemo accusantium libero officiis perspiciatis voluptatibus dolores optio dicta sint nulla veniam ullam tenetur animi adipisci rem sequi tempore, aliquam ratione molestias quia sapiente eaque impedit pariatur nobis! Quia vero consectetur, fugit enim omnis a sunt eaque recusandae ut, ipsam reiciendis ad expedita, qui sit voluptatum ipsum harum obcaecati doloribus! Laboriosam laudantium quisquam, voluptates dolores, maxime modi, corporis veniam perferendis quo magni quasi labore quis. Minus perspiciatis dicta aspernatur perferendis provident.</p> '
+]) -->
